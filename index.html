@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>News</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="index.js" defer></script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+  </style>
+</head>
+
+<body class="bodyy">
+  <header class="headerr">
+    <div class="section">
+      <h1 class="heading1">TheNewsHive</h1>
+    </div>
+
+    <a href="https://www.accuweather.com/en/in/patna/202349/weather-forecast/202349">
+
+    </a>
+  </header>
+
+  <nav class="navigation">
+    <a href="#" class="navcontent">Home</a>
+    <a href="#" class="navcontent">World</a>
+    <a href="#" class="navcontent">Business</a>
+    <a href="#" class="navcontent">Politics</a>
+    <a href="#" class="navcontent">Entertainment</a>
+    <a href="#" class="navcontent">Sports</a>
+  </nav>
+
+  <a class="weatherwidget-io" href="https://forecast7.com/en/26d1491d74/guwahati/" data-label_1="GUWAHATI"
+    data-theme="original">GUWAHATI</a>
+  <script>
+    !function (d, s, id) { var js, fjs = d.getElementsByTagName(s)[0]; if (!d.getElementById(id)) { js = d.createElement(s); js.id = id; js.src = 'https://weatherwidget.io/js/widget.min.js'; fjs.parentNode.insertBefore(js, fjs); } }(document, 'script', 'weatherwidget-io-js');
+  </script>
+
+  <main class="mainn">
+    <section class="gridd">
+      <div class="col-span-2">
+
+        <div class="breakingnewscontainer">
+          <h2 class="heading2">⚡BREAKING NEWS</h2>
+          <div class="flexgap">
+            <a
+              href="https://www.hindustantimes.com/cricket/srh-qualify-for-ipl-playoff-after-rain-washes-out-match-against-gt-101715884050930.html">
+              <div>
+                <p class="breakingnews">SRH qualify for IPL playoff after rain washes match</p>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="grid grid-cols-2 gap-4 mt-4" id="bigBlog">
+        </div>
+      </div>
+      <div class="col-span-1">
+        <h2 class="heading2">LATEST NEWS</h2>
+        <div class="boxcontent" id="smallBlog"></div>
+      </div>
+      </div>
+      </div>
+    </section>
+  </main>
+</body>
+
+</html>
